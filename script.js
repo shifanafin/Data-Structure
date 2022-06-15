@@ -26,4 +26,24 @@ function bubbleSort(arr)
 }
 document.write(bubbleSort([6,3,9,1,0]));
 */
+/*
+//Insertion Sorting
+function insertionSort(arr)
+{
+    let n = arr.length;
+    for(let i=1;i<n;i++)
+    {
+     var temp=arr[i];
+     let j=i-1;
+    while(j>=0 && arr[j]>temp)
+    {
+    arr[j+1]=arr[j];
+    j--;
+    }
+    arr[j+1]=temp;   
+}  
+return arr;
+}
+document.write(insertionSort([89,0,4,34,67]));
+*/
 
