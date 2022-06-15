@@ -1,3 +1,5 @@
+/*
+//Bubble Sorting
 function bubbleSort(arr)
 {
     
@@ -23,4 +25,5 @@ function bubbleSort(arr)
     return arr;
 }
 document.write(bubbleSort([6,3,9,1,0]));
+*/
 
